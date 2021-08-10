@@ -15,7 +15,10 @@ Select the game and enter its name in the console:
 
 1. brain-even
 2. brain-calc
+3. brain-gcd
 
 ### brain-even tutorial: [![asciicast](https://asciinema.org/a/HCL63EEKm8etXv2szhMmGARBp.svg)](https://asciinema.org/a/HCL63EEKm8etXv2szhMmGARBp)
 
 ### brain-calc tutorial: [![asciicast](https://asciinema.org/a/duua1xf34HWkbuhxV1U4gtEcP.svg)](https://asciinema.org/a/duua1xf34HWkbuhxV1U4gtEcP)
+
+### brain-gcd tutorial: [![asciicast](https://asciinema.org/a/Nyksg9341AGIMgn9jX6YQmVyV.svg)](https://asciinema.org/a/Nyksg9341AGIMgn9jX6YQmVyV)
