@@ -19,10 +19,10 @@ const isPrime = (number) => {
 };
 
 const getPrimeAnswer = () => {
-  const number = getRandomInt(MIN, MAX);
-  const rightAnswer = isPrime(number) ? 'yes' : 'no';
+  const randomNumber = getRandomInt(MIN, MAX);
+  const rightAnswer = isPrime(randomNumber) ? 'yes' : 'no';
 
-  console.log(`Question: ${number}`);
+  console.log(`Question: ${randomNumber}`);
 
   return rightAnswer;
 };

@@ -6,7 +6,7 @@ const MIN_LENGTH = 5;
 const MAX_LENGTH = 20;
 const DESCRIPTION = 'What number is missing in the progression?';
 
-const setProgression = (a, b) => {
+const getProgression = (a, b) => {
   const arr = [];
 
   for (let i = a; i <= a + b; i += 1) {
@@ -19,7 +19,7 @@ const setProgression = (a, b) => {
 const getProgressionAnswer = () => {
   const startNumber = getRandomInt(MIN, MAX);
   const progressionLength = getRandomInt(MIN_LENGTH, MAX_LENGTH);
-  const progression = setProgression(startNumber, progressionLength);
+  const progression = getProgression(startNumber, progressionLength);
   const randomIndex = getRandomInt(0, progressionLength);
   const rightAnswer = progression[randomIndex];
   progression[randomIndex] = '..';
