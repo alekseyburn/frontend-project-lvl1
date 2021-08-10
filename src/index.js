@@ -8,10 +8,10 @@ const gameCascade = (description, gameLogic) => {
   console.log(description);
 
   for (let i = 0; i < 3; i += 1) {
-    const rightAnswer = gameLogic(userName);
+    const rightAnswer = String(gameLogic(userName));
     const userAnswer = readlineSync.question('Your answer: ');
 
-    if (rightAnswer === (Number(userAnswer) || userAnswer)) {
+    if (rightAnswer === userAnswer) {
       console.log('Correct!');
     } else {
       console.log(`'${userAnswer}' is wrong answer ;(. Correct answer was '${rightAnswer}'.`);
