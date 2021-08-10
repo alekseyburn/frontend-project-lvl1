@@ -17,6 +17,7 @@ Select the game and enter its name in the console:
 2. brain-calc
 3. brain-gcd
 4. brain-progression
+5. brain-prime
 
 ### brain-even tutorial: [![asciicast](https://asciinema.org/a/HCL63EEKm8etXv2szhMmGARBp.svg)](https://asciinema.org/a/HCL63EEKm8etXv2szhMmGARBp)
 
@@ -25,3 +26,5 @@ Select the game and enter its name in the console:
 ### brain-gcd tutorial: [![asciicast](https://asciinema.org/a/Nyksg9341AGIMgn9jX6YQmVyV.svg)](https://asciinema.org/a/Nyksg9341AGIMgn9jX6YQmVyV)
 
 ### brain-progression tutorial: [![asciicast](https://asciinema.org/a/usww5fA2OzwW25vTab9OAOZ14.svg)](https://asciinema.org/a/usww5fA2OzwW25vTab9OAOZ14)
+
+### brain-prime tutorial: [![asciicast](https://asciinema.org/a/g0e55xlT85dUynCsjTgWzLMmH.svg)](https://asciinema.org/a/g0e55xlT85dUynCsjTgWzLMmH)
